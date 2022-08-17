@@ -31,7 +31,7 @@ paru -S ly
 sudo systemctl enable ly.service
 
 # bspwm
-sudo paru -S bspwm sxhkd rofi polybar picom python-pywal kitty dunst playerctl pamixer pulsemixer qpwgraph zip tar bat mediainfo ueberzeg trash-cliredshift-minimal rofi-calc 
+sudo paru -S bspwm sxhkd rofi polybar picom python-pywal kitty dunst playerctl pamixer pulsemixer qpwgraph zip tar bat mediainfo ueberzug trash-cliredshift-minimal rofi-calc 
 
 chmod u+x ~/.config/bspwm/bspwmrc
 
