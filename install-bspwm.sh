@@ -10,6 +10,13 @@ cd paru
 makepkg -si
 cd
 
+# copy configs
+cp -r ~/dotdots/.config ~/
+cp -r ~/dotdots/.vim ~/
+cp  ~/dotdots/.vimrc ~/
+cp ~/dotdots/.bashrc ~/
+
+
 # xorg
 sudo paru -S xorg-server xorg-xinit xorg-xrandr xorg-backlight xsecurelock xorg-xev
 
