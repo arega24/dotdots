@@ -1,7 +1,7 @@
 #!/bin/env bash
 
 # Options for powermenu
-logout="Logout"
+lock="Lock"
 shutdown="Shut Down"
 reboot="Restart"
 sleep="Sleep"
@@ -9,15 +9,12 @@ sleep="Sleep"
 # Get answer from user via rofi
 selected_option=$(echo "$shutdown
 $reboot
-$logout 
+$lock
 $sleep" | rofi -dmenu -i -theme-str '@import "power_menu_config.rasi"')
 
 # Do something based on selected option
 
-if [ "$selected_option" == "$logout" ]
-then
-    kitty pkill -KILL -u arega
-elif [ "$selected_option" == "$shutdown" ]
+if [ "$selected_option" == "$shutdown" ]
 then
     systemctl poweroff
 elif [ "$selected_option" == "$reboot" ]
@@ -26,6 +23,9 @@ then
 elif [ "$selected_option" == "$sleep" ]
 then
     systemctl suspend
+elif [ "$selected_option" == "$lock" ]
+then
+    xsecurelock
 else
     echo "No match"
 fi
