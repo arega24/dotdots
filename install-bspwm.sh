@@ -14,7 +14,8 @@ cd
 sudo paru -S xorg-server xorg-xinit xorg-xrandr xorg-backlight xsecurelock xorg-xev
 
 # Video drivers
-sudo paru -S mesa xf86-video-nouveau
+# sudo paru -S mesa xf86-video-nouveau
+# sudo paru -S xf86-video-intel
 
 # ly
 paru -S ly
