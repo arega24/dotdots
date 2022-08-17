@@ -7,7 +7,7 @@ sudo pacman -Syu
 sudo pacman -S git base-devel 
 git clone https://aur.archlinux.org/paru.git
 cd paru 
-makepakg -si
+makepkg -si
 cd
 
 # xorg
@@ -30,7 +30,7 @@ chmod u+x ~/.config/bspwm/bspwmrc
 paru -S ttf-jetbrains-mono ttf-babelstone-runic 
 
 # useful programs
-sudp paru -S vim neofetch htop libqalculate 
+sudo paru -S vim neofetch htop libqalculate 
 paru -S lf flameshot-git visual-studio-code-bin
 
 
