@@ -157,6 +157,11 @@ super + Print
 super + b
   firefox
 
+# Calculator
+super + c
+  rofi -show calc -no-show-match -no-sort
+
+
 #File manger 
 #super + n
 #  	kitty l
