@@ -31,8 +31,8 @@ paru -S ly
 sudo systemctl enable ly.service
 
 # bspwm
-sudo paru -S bspwm sxhkd rofi polybar picom python-pywal kitty dunst playerctl pamixer pulsemixer qpwgraph zip tar bat mediainfo ueberzug trash-cli redshift-minimal rofi-calc 
-
+sudo paru -S bspwm sxhkd rofi polybar picom python-pywal kitty dunst playerctl pamixer pulsemixer qpwgraph zip tar bat mediainfo ueberzug trash-cli rofi-calc 
+paru -S redshift-minimal
 chmod u+x ~/.config/bspwm/bspwmrc
 
 # fonts
@@ -42,5 +42,7 @@ paru -S ttf-jetbrains-mono ttf-babelstone-runic
 sudo paru -S vim neofetch htop libqalculate 
 paru -S lf flameshot-git visual-studio-code-bin
 
+# run pywal once
+wal -i ~/dotdots/wallpaper.jpg
 
 
