@@ -11,9 +11,10 @@ makepakg -si
 cd
 
 # xorg
-sudo paru -S xorg-server xorg-xinit xorg-xrandr xorg-backlight xsecurelock
+sudo paru -S xorg-server xorg-xinit xorg-xrandr xorg-backlight xsecurelock xorg-xev
 
 # Video drivers
+sudo paru -S mesa xf86-video-nouveau
 
 # ly
 paru -S ly
