@@ -11,7 +11,7 @@ makepakg -si
 cd
 
 # xorg
-sudo paru -S xorg-server xorg-xinit xorg-xrandr xorg-backlight
+sudo paru -S xorg-server xorg-xinit xorg-xrandr xorg-backlight xsecurelock
 
 # Video drivers
 
