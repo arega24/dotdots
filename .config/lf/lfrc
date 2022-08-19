@@ -8,6 +8,10 @@ set previewer '~/.config/lf/scope'
 #---------- Shortcuts and key Bidings ----------
 
 map V $vim "$f"
+map f :fzf_jump
+
+map gd cd /run/media
+map gs cd /media/shared
 
 #---------- Custom Functions ----------
 
@@ -42,3 +46,15 @@ cmd tar ${{
     rm -rf $1
 }}
 
+
+# FZF file search
+
+cmd fzf_jump ${{
+  res="$(find . -maxdepth 3 | fzf --reverse --header='Jump to location')"
+  if [ -f "$res" ]; then
+    cmd="select"
+  elif [ -d "$res" ]; then
+    cmd="cd"
+  fi
+  lf -remote "send $id $cmd \"$res\""
+}}
