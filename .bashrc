@@ -49,6 +49,6 @@ wl(){
 alias l='sh ~/.config/lf/lfueberzug'
 alias ls='ls --color=auto'
 alias update='sudo paru -Syu'
-
+alias m='pulsemixer'
 
 
