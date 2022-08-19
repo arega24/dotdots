@@ -23,7 +23,7 @@ neofetch
 
 # Costom wallpaper setter pywal
 w(){
-	wal -i ~/Imagens/wallpapers/"$@"
+	wal -i "$@"
 	# Dunst
 	ln -sf "${HOME}/.cache/wal/pywal-dunstrc" "${HOME}/.config/dunst/dunstrc"
 	killall dunst
@@ -34,7 +34,7 @@ w(){
 }
 
 wl(){
-	wal -i -l ~/Imagens/wallpapers/"$@"
+	wal -i -l "$@"
 	# Dunst
 	ln -sf "${HOME}/.cache/wal/pywal-dunstrc" "${HOME}/.config/dunst/dunstrc"
 	killall dunst
