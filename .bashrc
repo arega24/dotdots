@@ -33,6 +33,16 @@ w(){
 	ln -sf "${HOME}/.cache/wal/pywal_vim_airline" "${HOME}/.vim/plugged/vim-airline-themes/autoload/airline/themes/pywal_vim_airline.vim"
 }
 
+wl(){
+	wal -i -l ~/Imagens/wallpapers/"$@"
+	# Dunst
+	ln -sf "${HOME}/.cache/wal/pywal-dunstrc" "${HOME}/.config/dunst/dunstrc"
+	killall dunst
+	notify-send "Success!"
+	
+	#vim airline theme
+	ln -sf "${HOME}/.cache/wal/pywal_vim_airline" "${HOME}/.vim/plugged/vim-airline-themes/autoload/airline/themes/pywal_vim_airline.vim"
+}
 
 
 #--------- ALIASES ---------
