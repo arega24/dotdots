@@ -17,7 +17,7 @@ cp  ~/dotdots/.vimrc ~/
 cp ~/dotdots/.bashrc ~/
 mkdir ~/Imagens
 mkdir ~/Documentos
-mkdir ~/Transferencias
+mkdir ~/Transferncias
 
 # xorg
 sudo paru -S xorg-server xorg-xinit xorg-xrandr xorg-backlight xsecurelock xorg-xev
