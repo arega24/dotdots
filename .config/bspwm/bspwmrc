@@ -18,6 +18,9 @@ bspc config gapless_monocle      true
 bspc config pointer_follows_focus true
 bspc config focus_follows_pointer true
 
+# Windows start state 
+bspc rule -a Steam state=floating 
+
 # Colors
 bspc config focused_border_color        "$color15"
 bspc config normal_border_color         "$color1"
