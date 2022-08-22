@@ -23,7 +23,9 @@ mkdir ~/Transferncias
 sudo paru -S xorg-server xorg-xinit xorg-xrandr xorg-backlight xsecurelock xorg-xev
 
 # Video drivers
-# sudo paru -S mesa xf86-video-nouveau
+# nvidia
+sudo paru -S nvidia nvidia-utils
+# Virtual machine
 # sudo paru -S xf86-video-intel
 
 # ly
@@ -52,4 +54,5 @@ paru -S kripton-theme-git
 #ntfs suport
 sudo paru -S ntfs-3g
 
-
+# network management
+sudo paru -S networkmanager network-manager-applet 
