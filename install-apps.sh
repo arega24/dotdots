@@ -1,7 +1,7 @@
 #!/bin/bash
 
 sudo paru -S firefox piper lutris obs-studio
-sudo paru -Sy steam
+# sudo paru -Sy steam
 paru -S visual-studio-code-bin onlyoffice fluent-reader
 
 flatpak install flathub org.standardnotes.standardnotes
