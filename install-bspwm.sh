@@ -42,7 +42,7 @@ paru -S ttf-jetbrains-mono ttf-babelstone-runic
 
 # useful programs
 sudo paru -S vim neofetch htop libqalculate fzf udisks2 gparted
-paru -S lf flameshot-git visual-studio-code-bin bashmount
+paru -S lf flameshot-git bashmount
 
 # run pywal once
 wal -i ~/dotdots/wallpaper.jpg
