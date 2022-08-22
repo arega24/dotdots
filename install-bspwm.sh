@@ -19,19 +19,15 @@ mkdir ~/Imagens
 mkdir ~/Documentos
 mkdir ~/Transferncias
 
-# xorg (it conflicts with nvidia)
+#------- only run this for minimal install ------
+# xorg
 # sudo paru -S xorg-server xorg-xinit xorg-xrandr xorg-backlight xsecurelock xorg-xev
-
-# nvidia propriatery drivers(steam dont work with nouveau)
-wget https://us.download.nvidia.com/XFree86/Linux-x86_64/515.65.01/NVIDIA-Linux-x86_64-515.65.01.run
-# then run this script as sudo 
-# sudo pacman -S --needed nvidia-dkms nvidia-utils lib32-nvidia-utils nvidia-settings vulkan-icd-loader lib32-vulkan-icd-loader
-
 # Video drivers
 # nouveau
 # sudo paru -S mesa lib32-mesa xf86-video-nouveau libva-mesa-driver mesa-vdpau
 # Virtual machine
 # sudo paru -S xf86-video-intel
+#------------------------------------------------
 
 # ly
 paru -S ly
