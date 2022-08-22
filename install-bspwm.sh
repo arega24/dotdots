@@ -56,3 +56,6 @@ sudo paru -S ntfs-3g
 
 # network management
 sudo paru -S networkmanager network-manager-applet 
+
+# flatpacks
+sudo pacman -S flatpak
