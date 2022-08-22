@@ -42,7 +42,7 @@ chmod u+x ~/.config/bspwm/bspwmrc
 paru -S ttf-jetbrains-mono ttf-babelstone-runic 
 
 # useful programs
-sudo paru -S vim neofetch htop libqalculate fzf udisks2 gparted
+sudo paru -S vim neofetch htop nvtop libqalculate fzf udisks2 gparted
 paru -S lf flameshot-git bashmount
 
 # run pywal once
