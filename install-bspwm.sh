@@ -4,7 +4,7 @@
 sudo pacman -Syu
 
 # Install paru
-sudo pacman -S git base-devel 
+sudo pacman -S git wget base-devel 
 git clone https://aur.archlinux.org/paru.git
 cd paru 
 makepkg -si
@@ -22,6 +22,9 @@ mkdir ~/Transferncias
 # xorg
 # sudo paru -S xorg-server xorg-xinit xorg-xrandr xorg-backlight xsecurelock xorg-xev
 
+# nvidia propriatery drivers(steam dont work with nouveau)
+wget https://us.download.nvidia.com/XFree86/Linux-x86_64/515.65.01/NVIDIA-Linux-x86_64-515.65.01.run
+# then run this script as sudo 
 
 # Video drivers
 # nouveau
