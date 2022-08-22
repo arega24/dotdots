@@ -24,7 +24,7 @@ sudo paru -S xorg-server xorg-xinit xorg-xrandr xorg-backlight xsecurelock xorg-
 
 # Video drivers
 # nvidia
-sudo paru -S nvidia nvidia-utils
+# sudo paru -S nvidia nvidia-utils
 # Virtual machine
 # sudo paru -S xf86-video-intel
 
