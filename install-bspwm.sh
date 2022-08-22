@@ -20,10 +20,11 @@ mkdir ~/Documentos
 mkdir ~/Transferncias
 
 # xorg
-sudo paru -S xorg-server xorg-xinit xorg-xrandr xorg-backlight xsecurelock xorg-xev
+# sudo paru -S xorg-server xorg-xinit xorg-xrandr xorg-backlight xsecurelock xorg-xev
+
 
 # Video drivers
-# nvidia
+# nouveau
 # sudo paru -S mesa lib32-mesa xf86-video-nouveau libva-mesa-driver mesa-vdpau
 # Virtual machine
 # sudo paru -S xf86-video-intel
