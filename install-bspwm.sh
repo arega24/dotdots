@@ -17,7 +17,6 @@ cp  ~/dotdots/.vimrc ~/
 cp ~/dotdots/.bashrc ~/
 mkdir ~/Imagens
 mkdir ~/Documentos
-mkdir ~/Transferncias
 
 #------- only run this for minimal install ------
 # xorg
