@@ -2,7 +2,7 @@
 
 sudo paru -S firefox piper lutris obs-studio
 sudo paru -Sy steam
-paru -S visual-studio-code-bin onlyoffice marktext
+paru -S visual-studio-code-bin onlyoffice marktext-appimg
 
 flatpak install flathub org.standardnotes.standardnotes
 flatpak install flathub com.todoist.Todoist
