@@ -1,9 +1,11 @@
 #---------- Basic Settings ----------
-set hidden true
+# set hidden
 set ignorance true
 set scrolloff 10
 set cleaner '~/.config/lf/cleaner'
 set previewer '~/.config/lf/scope'
+set info size
+set sortby name
 
 #---------- Shortcuts and key Bidings ----------
 
@@ -12,6 +14,7 @@ map f :fzf_jump
 
 map gd cd /run/media
 map gs cd /media/shared
+map gt cd ~/.local/share/Trash/files  
 
 #---------- Custom Functions ----------
 
