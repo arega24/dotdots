@@ -34,7 +34,7 @@ w(){
 }
 
 wl(){
-	wal -i -l "$@"
+	wal -l -i "$@"
 	# Dunst
 	ln -sf "${HOME}/.cache/wal/pywal-dunstrc" "${HOME}/.config/dunst/dunstrc"
 	killall dunst
