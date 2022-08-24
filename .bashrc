@@ -44,6 +44,30 @@ wl(){
 	ln -sf "${HOME}/.cache/wal/pywal_vim_airline" "${HOME}/.vim/plugged/vim-airline-themes/autoload/airline/themes/pywal_vim_airline.vim"
 }
 
+# package timer-rs needed
+pomo(){
+	printf "Focus time(m): "
+	read focus
+	printf "Break time(m): "
+	read break
+	timer ${focus}m && timer ${break}m && timer ${focus}m && timer ${break}m && timer ${focus}m
+	printf "Finished!"
+}
+
+tabata(){
+	printf "10 Repetições"
+	printf "Focus time(s/m): "
+	read focus
+	printf "Break time(s/m): "
+	read break
+	timer ${focus} && timer ${break} && timer ${focus} && timer ${break} &&
+	timer ${focus} && timer ${break} && timer ${focus} && timer ${break} &&
+	timer ${focus} && timer ${break} && timer ${focus} && timer ${break} &&
+	timer ${focus} && timer ${break} && timer ${focus} && timer ${break} &&
+	timer ${focus} && timer ${break} && timer ${focus}
+	printf "Finished!"
+}
+
 
 #--------- ALIASES ---------
 alias l='sh ~/.config/lf/lfueberzug'
