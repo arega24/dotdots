@@ -16,7 +16,6 @@ Plug 'jiangmiao/auto-pairs'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'junegunn/goyo.vim'
-Plug 'junegunn/limelight.vim'
 
 " markdown
 Plug 'godlygeek/tabular'
