@@ -55,7 +55,7 @@ pomo(){
 }
 
 tabata(){
-	printf "10 Repetições"
+	printf "10 Repetições\n"
 	printf "Focus time(s/m): "
 	read focus
 	printf "Break time(s/m): "
