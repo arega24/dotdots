@@ -55,7 +55,7 @@ paru -S kripton-theme-git
 sudo paru -S ntfs-3g
 
 # network management
-sudo paru -S networkmanager network-manager-applet 
+sudo paru -S networkmanager network-manager-applet dnsmasq
 sudo systemctl enable NetworkManager.service
 
 # flatpacks
