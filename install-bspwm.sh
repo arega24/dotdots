@@ -57,6 +57,7 @@ sudo paru -S ntfs-3g
 # network management
 sudo paru -S networkmanager network-manager-applet dnsmasq
 sudo systemctl enable NetworkManager.service
+sudo systemctl enable dnsmasq.service
 
 # flatpacks
 sudo pacman -S flatpak
