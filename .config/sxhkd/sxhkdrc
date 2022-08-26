@@ -157,9 +157,6 @@ super + Print
 super + b
   firefox
 
-super + shift + b
-  chromium
-
 # Calculator
 super + c
   rofi -show calc -no-show-match -no-sort
