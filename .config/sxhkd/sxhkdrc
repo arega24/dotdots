@@ -155,7 +155,8 @@ super + Print
 
 # Shortcuts
 super + b
-  firefox
+  tor-browser
+#  firefox
 
 # Calculator
 super + c
