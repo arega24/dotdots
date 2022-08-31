@@ -11,6 +11,7 @@ set sortby name
 
 map V $vim "$f"
 map f :fzf_jump
+map i $sxiv "$f"
 
 map gd cd /run/media
 map gs cd /media/shared
