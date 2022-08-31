@@ -158,6 +158,10 @@ super + b
   tor-browser
 #  firefox
 
+# Keepass
+super + k
+   keepassxc
+
 # Calculator
 super + c
   rofi -show calc -no-show-match -no-sort
