@@ -176,15 +176,15 @@ super + c
 
 # Play-Pause button
 ctrl + Down
-	playerctl -p spotify play-pause
+	playerctl play-pause
 
 # Next button
 ctrl + Right
-	playerctl -p spotify next
+	playerctl next
 
 # Previous button
 ctrl + Left
-	playerctl -p spotify previous
+	playerctl previous
 
 # Redfshift
 super + r
