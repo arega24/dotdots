@@ -14,7 +14,7 @@ map f :fzf_jump
 map i $sxiv "$f" &
 
 map gd cd /run/media
-map gs cd /media/shared
+map gs cd /media
 map gt cd ~/.local/share/Trash/files  
 
 #---------- Custom Functions ----------
