@@ -49,7 +49,7 @@ wal -i ~/dotdots/wallpaper.jpg
 
 # gtk
 sudo paru -S lxappearance
-paru -S kripton-theme-git
+paru -S materia-gtk-theme
 
 #ntfs suport
 sudo paru -S ntfs-3g
