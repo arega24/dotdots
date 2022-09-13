@@ -49,3 +49,6 @@ redshift -P -O 3200
 
 # Notifications
 notify-send " Welcome Back! "
+
+# Syncthing 
+syncthing &
