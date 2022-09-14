@@ -51,4 +51,4 @@ redshift -P -O 3200
 notify-send " Welcome Back! "
 
 # Syncthing 
-syncthing &
+syncthing --no-browser &
