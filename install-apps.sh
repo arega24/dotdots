@@ -2,7 +2,7 @@
 
 sudo paru -S firefox piper lutris obs-studio syncthing
 sudo paru -Sy steam
-paru -S code onlyoffice tor-browser logseq-desktop keepassxc newsflash
+paru -S code onlyoffice tor-browser logseq-desktop keepassxc newsflash webapp-manager
 
 flatpak install flathub org.standardnotes.standardnotes
 # flatpak install flathub com.todoist.Todoist
