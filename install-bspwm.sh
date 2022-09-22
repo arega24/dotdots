@@ -61,3 +61,7 @@ sudo systemctl enable dnsmasq.service
 
 # flatpacks
 sudo pacman -S flatpak
+
+# Firewall
+sudo paru -S ufw
+sudo ufw enable
