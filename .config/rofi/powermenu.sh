@@ -22,7 +22,7 @@ then
     systemctl reboot
 elif [ "$selected_option" == "$sleep" ]
 then
-    systemctl suspend
+    xsecurelock & systemctl suspend
 elif [ "$selected_option" == "$lock" ]
 then
     xsecurelock
