@@ -54,6 +54,12 @@ pomo(){
 	printf "Finished!"
 }
 
+r(){
+	printf "Temp: "
+	read temp
+	redshift -P -O ${temp}
+
+}
 
 #--------- ALIASES ---------
 alias l='sh ~/.config/lf/lfueberzug'
