@@ -4,7 +4,7 @@
 # lock="Lock"
 shutdown="Shut Down"
 reboot="Restart"
-sleep="Sleep"
+sleep="Lock and Sleep"
 
 # Get answer from user via rofi
 selected_option=$(echo "$shutdown
