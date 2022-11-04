@@ -1,7 +1,7 @@
 #!/bin/env bash
 
 # Options for powermenu
-lock="Lock"
+# lock="Lock"
 shutdown="Shut Down"
 reboot="Restart"
 sleep="Sleep"
@@ -9,7 +9,6 @@ sleep="Sleep"
 # Get answer from user via rofi
 selected_option=$(echo "$shutdown
 $reboot
-$lock
 $sleep" | rofi -dmenu -i -theme-str '@import "power_menu_config.rasi"')
 
 # Do something based on selected option
@@ -23,9 +22,9 @@ then
 elif [ "$selected_option" == "$sleep" ]
 then
     xsecurelock & systemctl suspend
-elif [ "$selected_option" == "$lock" ]
-then
-    xsecurelock
+# elif [ "$selected_option" == "$lock" ]
+# then
+#    xsecurelock
 else
     echo "No match"
 fi
