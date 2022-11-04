@@ -13,7 +13,7 @@ inputbar {
 
 window {
     width:            20%;
-    height:           20%;
+    height:           15%;
     padding:          0;
     text-color:       @foreground;
     background-color: @background;
