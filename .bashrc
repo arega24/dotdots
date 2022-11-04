@@ -54,20 +54,6 @@ pomo(){
 	printf "Finished!"
 }
 
-tabata(){
-	printf "10 Repetições\n"
-	printf "Focus time(s/m): "
-	read focus
-	printf "Break time(s/m): "
-	read break
-	timer ${focus} && timer ${break} && timer ${focus} && timer ${break} &&
-	timer ${focus} && timer ${break} && timer ${focus} && timer ${break} &&
-	timer ${focus} && timer ${break} && timer ${focus} && timer ${break} &&
-	timer ${focus} && timer ${break} && timer ${focus} && timer ${break} &&
-	timer ${focus} && timer ${break} && timer ${focus}
-	printf "Finished!"
-}
-
 
 #--------- ALIASES ---------
 alias l='sh ~/.config/lf/lfueberzug'
