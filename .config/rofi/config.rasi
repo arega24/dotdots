@@ -4,7 +4,7 @@
 @import "~/.cache/wal/colors-rofi-dark"
 
 configuration{
-    display-drun:           "Aplication:";
+    display-drun:           "Aplication: ";
     font:                   "JetBrains Mono 13";
     drun-display-format:    "{icon}{name}";
     show-icons:             false;
