@@ -54,17 +54,21 @@ pomo(){
 	printf "Finished!"
 }
 
+
+shared-mount(){
+	sudo ntfs-3g /dev/sda1 /media/shared/ 
+	sleep 2
+	syncthing --no-browser &
+}
+
 r(){
 	printf "Temp: "
 	read temp
 	redshift -P -O ${temp}
-
 }
-
 #--------- ALIASES ---------
 alias l='sh ~/.config/lf/lfueberzug'
 alias ls='ls --color=auto'
 alias update='sudo paru -Syu'
 alias m='pulsemixer'
-
 
