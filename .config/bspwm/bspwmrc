@@ -28,7 +28,7 @@ bspc config active_border_color         "$color2"
 
 # screen config
 # xrandr --output HDMI-0 --primary --mode 1920x1080 --rotate normal --output DP-3 --mode 1920x1080 --rotate normal --left-of HDMI-0
-xrandr --output Virtual-1 --primary --mode 1920x1080 --rotate normal
+xrandr --output Virtual-1 --primary --mode 1920x1080 --rate 75 --rotate normal
 
 # Wallpaper
 ## Random
@@ -45,7 +45,7 @@ sh ~/.config/polybar/launch.sh
 # note: picom only suports transperacy above v9
 
 # Blue Light Filter
-redshift -P -O 3200
+redshift -P -O 4200
 
 # Notifications
 notify-send " Welcome Back! "
