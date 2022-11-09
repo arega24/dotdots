@@ -11,8 +11,12 @@ super + space
 	rofi -show drun
 
 # make sxhkd reload its configuration files:
-super + Esc
+super + escape
  	pkill -USR1 -x sxhkd
+
+# WIFI Menu
+super + w 
+	sh ~/.config/rofi/rofi-wifi-menu.sh
 
 #
 # bspwm hotkeys
@@ -140,11 +144,11 @@ XF86AudioMute
 
 # Brightness up
 XF86MonBrightnessUp
-  brillo -q -u 150000 -A 5
+  sudo brillo -q -u 150000 -A 5
 
 # And brightness down
 XF86MonBrightnessDown
-  brillo -q -u 150000 -U 5
+  sudo brillo -q -u 150000 -U 5
 
 # Screenshot
 Print
@@ -155,8 +159,8 @@ super + Print
 
 # Shortcuts
 super + b
-  tor-browser
-#  firefox
+#  tor-browser
+   firefox
 
 # Keepass
 super + k
