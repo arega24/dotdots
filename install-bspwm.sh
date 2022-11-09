@@ -38,7 +38,7 @@ cp /etc/X11/xinit/xinitrc .xinitrc
 
 # bspwm
 sudo paru -S bspwm sxhkd rofi polybar picom python-pywal kitty dunst libnotify playerctl pamixer pulsemixer qpwgraph zip tar bat mediainfo ueberzug trash-cli rofi-calc 
-paru -S redshift-minimal timeshift
+paru -S redshift-minimal timeshift xsecurelock
 chmod u+x ~/.config/bspwm/bspwmrc
 
 #brillo
