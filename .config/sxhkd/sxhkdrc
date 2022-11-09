@@ -16,7 +16,7 @@ super + escape
 
 # WIFI Menu
 # super + w 
-# 	sh ~/.config/rofi/rofi-wifi-menu.sh
+#	sh ~/.config/rofi/rofi-wifi-menu.sh
 
 #
 # bspwm hotkeys
@@ -129,46 +129,46 @@ super + {Left,Down,Up,Right}
 
 # Multimedia keys
 XF86AudioRaiseVolume
-  pamixer -u -i 5
+  	pamixer -u -i 5
 
 # Still multimedia
 XF86AudioLowerVolume
-  pamixer -u -d 5
+  	pamixer -u -d 5
 
 # still
 XF86AudioMute
-  pamixer -t
+  	pamixer -t
 
 # amixer -q set Master toggle
 # Simple amixer command seems to have problems unmuting device
 
 # Brightness up
 XF86MonBrightnessUp
-  sudo brillo -q -u 150000 -A 5
+  	sudo brillo -q -u 150000 -A 5
 
 # And brightness down
 XF86MonBrightnessDown
-  sudo brillo -q -u 150000 -U 5
+  	sudo brillo -q -u 150000 -U 5
 
 # Screenshot
 Print
-  scrot ~/Imagens/Screenshot-$(date +%F_%T).png
+  	scrot ~/Imagens/Screenshot-$(date +%F_%T).png
 
-super + Print
-  ~/.config/bspwm/scripts/screenshot.sh
+# super + Print
+#  	~/.config/bspwm/scripts/screenshot.sh
 
 # Shortcuts
 super + b
-#  tor-browser
-   firefox
+#  	tor-browser
+   	firefox
 
 # Keepass
 super + k
-   keepassxc
+   	keepassxc
 
 # Calculator
 super + c
-  rofi -show calc -no-show-match -no-sort -display-calc "Calc: "
+  	rofi -show calc -no-show-match -no-sort -display-calc "Calc: "
 
 
 #File manger 
@@ -202,3 +202,9 @@ super + p
 
 super + shift + p
 	killall picom
+
+# Laptop screen rotation
+XF86Launch2
+	xrandr --output eDP --mode 1920x1080 --rate 60 --rotate inverted
+shift + XF86Launch2
+	xrandr --output eDP --mode 1920x1080 --rate 60 --rotate normal
