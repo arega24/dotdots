@@ -53,7 +53,8 @@ paru -S ttf-jetbrains-mono ttf-babelstone-runic
 
 # useful programs
 sudo paru -S vim neofetch htop nvtop libqalculate fzf udisks2 gparted
-paru -S lf flameshot-git bashmount baobab timer-rs speedtest-cli mpv sxiv cmus
+paru -S lf bashmount baobab timer-rs speedtest-cli mpv sxiv cmus
+sudo pacman -S flameshot
 
 # run pywal once
 wal -i ~/dotdots/wallpaper.jpg
