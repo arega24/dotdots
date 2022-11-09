@@ -140,11 +140,11 @@ XF86AudioMute
 
 # Brightness up
 XF86MonBrightnessUp
-  brillo -q -A 5
+  brillo -q -u 150000 -A 5
 
 # And brightness down
 XF86MonBrightnessDown
-  brillo -q -U 5
+  brillo -q -u 150000 -U 5
 
 # Screenshot
 Print
