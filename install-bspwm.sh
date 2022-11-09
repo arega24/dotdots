@@ -29,8 +29,12 @@ mkdir ~/Documentos
 #------------------------------------------------
 
 # ly
-paru -S ly
-sudo systemctl enable ly.service
+# paru -S ly
+# sudo systemctl enable ly.service
+
+# startx
+cp /etc/X11/xinit/xinitrc .xinitrc
+# to run window manager edit file (adding exec bspwm) and run startx
 
 # bspwm
 sudo paru -S bspwm sxhkd rofi polybar picom python-pywal kitty dunst libnotify playerctl pamixer pulsemixer qpwgraph zip tar bat mediainfo ueberzug trash-cli rofi-calc 
