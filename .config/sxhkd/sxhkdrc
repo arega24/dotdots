@@ -15,8 +15,8 @@ super + escape
  	pkill -USR1 -x sxhkd
 
 # WIFI Menu
-super + w 
-	sh ~/.config/rofi/rofi-wifi-menu.sh
+# super + w 
+# 	sh ~/.config/rofi/rofi-wifi-menu.sh
 
 #
 # bspwm hotkeys
