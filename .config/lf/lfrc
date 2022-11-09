@@ -16,6 +16,7 @@ map i $sxiv "$f" &
 map gd cd /run/media
 map gs cd /media
 map gt cd ~/.local/share/Trash/files  
+map gc cd ~/.config
 
 #---------- Custom Functions ----------
 
