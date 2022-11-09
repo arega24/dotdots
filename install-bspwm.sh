@@ -41,6 +41,13 @@ sudo paru -S bspwm sxhkd rofi polybar picom python-pywal kitty dunst libnotify p
 paru -S redshift-minimal timeshift
 chmod u+x ~/.config/bspwm/bspwmrc
 
+#brillo
+git clone https://gitlab.com/cameronnemo/brillo
+cd brillo
+make
+sudo make install.setgid
+cd
+
 # fonts
 paru -S ttf-jetbrains-mono ttf-babelstone-runic 
 
