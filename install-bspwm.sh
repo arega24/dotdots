@@ -45,7 +45,9 @@ chmod u+x ~/.config/bspwm/bspwmrc
 git clone https://gitlab.com/cameronnemo/brillo
 cd brillo
 make
+sudo make install GROUP=_brillo
 sudo make install.setgid
+sudo make install.polkit
 cd
 
 # fonts
