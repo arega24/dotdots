@@ -144,11 +144,11 @@ XF86AudioMute
 
 # Brightness up
 XF86MonBrightnessUp
-  	sudo brillo -q -u 150000 -A 5
+  	pkexec /usr/bin/brillo -q -u 150000 -A 5
 
 # And brightness down
 XF86MonBrightnessDown
-  	sudo brillo -q -u 150000 -U 5
+  	pkexec /usr/bin/brillo -q -u 150000 -U 5
 
 # Screenshot
 Print
