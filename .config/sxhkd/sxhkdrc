@@ -143,16 +143,16 @@ XF86AudioMute
 # Simple amixer command seems to have problems unmuting device
 
 # Brightness up
-XF86MonBrightnessUp
-  	pkexec /usr/bin/brillo -q -u 150000 -A 5
+super + i
+  	brillo -q -u 150000 -A 5
 
 # And brightness down
-XF86MonBrightnessDown
-  	pkexec /usr/bin/brillo -q -u 150000 -U 5
+super + d
+  	brillo -q -u 150000 -U 5
 
 # Screenshot
 Print
-  	scrot ~/Imagens/Screenshot-$(date +%F_%T).png
+  	flameshot screen -p ~/Images/Screenshot
 
 # super + Print
 #  	~/.config/bspwm/scripts/screenshot.sh
