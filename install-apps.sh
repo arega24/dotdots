@@ -1,6 +1,6 @@
 #!/bin/bash
 
-sudo paru -S firefox piper lutris obs-studio syncthing
+sudo paru -S firefox qutebrowser piper lutris obs-studio syncthing
 sudo paru -Sy steam
 paru -S code onlyoffice tor-browser keepassxc webapp-manager
 
