@@ -55,7 +55,7 @@ paru -S ttf-jetbrains-mono ttf-babelstone-runic
 
 # useful programs
 sudo paru -S vim neofetch htop nvtop libqalculate fzf udisks2 gparted
-paru -S lf bashmount timer-rs speedtest-cli mpv sxiv cmus ncdu
+paru -S lf bashmount timer-rs speedtest-cli mpv youtube-dl sxiv cmus ncdu
 sudo pacman -S flameshot
 
 # run pywal once
