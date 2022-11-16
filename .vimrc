@@ -67,9 +67,9 @@ set number relativenumber
 set formatoptions-=cro
 set mouse=a
 
-" spell check
+" spell check (highlight erros)
 set spelllang=pt_pt,en_us
-set spell
+" set spell "(enable spell highlight)
 
 " Use system clipboear
 set clipboard=unnamedplus
@@ -94,7 +94,7 @@ let g:mucomplete#tab_when_no_results = 1
 let g:mucomplete#cycle_all = 1
 
 " hexokinase
-let g:Hexokinase_highlighters = ['virtual']
+" let g:Hexokinase_highlighters = ['virtual']
 
 " Markdown
 set conceallevel=2
