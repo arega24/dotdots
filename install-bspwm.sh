@@ -60,6 +60,7 @@ sudo pacman -S flameshot
 
 # Zathura
 paru -S zathura zathura-pdf-poppler
+xdg-mime default org.pwmt.zathura.desktop application/pdf
 
 # run pywal once
 wal -i ~/dotdots/wallpaper.jpg
