@@ -58,6 +58,9 @@ sudo paru -S vim neofetch htop nvtop libqalculate fzf udisks2 gparted
 paru -S lf bashmount timer-rs speedtest-cli mpv youtube-dl sxiv cmus ncdu
 sudo pacman -S flameshot
 
+# Zathura
+paru -S zathura zathura-pdf-poppler
+
 # run pywal once
 wal -i ~/dotdots/wallpaper.jpg
 
