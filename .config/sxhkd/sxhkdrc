@@ -160,8 +160,9 @@ Print
 # Shortcuts
 super + b
 #  	tor-browser
-   	firefox
-
+#  	firefox
+	qutebrowser
+	
 # Keepass
 super + k
    	keepassxc
