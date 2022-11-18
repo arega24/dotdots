@@ -62,6 +62,7 @@ config.set('content.javascript.enabled', True, 'https://snapdrop.net/*')
 config.set('content.javascript.enabled', True, 'https://www.twitch.tv/*')
 config.set('content.javascript.enabled', True, 'https://www.reuters.com/*')
 config.set('content.javascript.enabled', True, 'https://apnews.com/*')
+config.set('content.javascript.enabled', True, 'https://github.com/*')
 
 ###### Disable WebGL #####
 config.set('content.webgl',False)
