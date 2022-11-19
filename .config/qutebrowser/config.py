@@ -167,4 +167,4 @@ c.colors.completion.category.bg = xresources["*.background"]
 c.colors.completion.category.fg = xresources["*.foreground"]
 c.colors.completion.item.selected.bg = xresources["*.color1"]
 c.colors.completion.item.selected.fg = xresources["*.foreground"]
-
+c.colors.webpage.bg = xresources["*.background"]
