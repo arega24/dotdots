@@ -88,14 +88,14 @@ config.bind('zt','config-cycle statusbar.show always never')
 ##### Cookies #####
 # Dont store cookies (can't define sepecific urls) 
 config.set('content.cookies.store', False)
+config.set('content.cookies.accept', 'no-unknown-3rdparty')
 # Which cookies to accept
 # Valid values:
 #   - all: Accept all cookies.
 #   - no-3rdparty: Accept cookies from the same origin only. This is known to break some sites, such as GMail.
 #   - no-unknown-3rdparty: Accept cookies from the same origin only, unless a cookie is already set for the domain. On QtWebEngine, this is the same as no-3rdparty.
 #   - never: Don't accept cookies at all.
-config.set('content.cookies.accept', 'all', 'chrome-devtools://*')
-config.set('content.cookies.accept', 'all', 'devtools://*')
+
 
 ##### Private mode #####
 # Doesnt store browsing history
@@ -169,4 +169,3 @@ c.colors.completion.category.fg = xresources["*.foreground"]
 c.colors.completion.item.selected.bg = xresources["*.color1"]
 c.colors.completion.item.selected.fg = xresources["*.foreground"]
 
-c.colors.webpage.bg = xresources["*.background"]
