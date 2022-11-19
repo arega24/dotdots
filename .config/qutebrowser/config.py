@@ -108,7 +108,7 @@ config.set('url.start_pages','file:///home/arega/.config/start_pages/Terminal/in
 config.set('url.default_page','file:///home/arega/.config/start_pages/Terminal/index.html')
 
 ##### Search Engines ######
-c.url.searchengines = {'DEFAULT': 'https://searx.tiekoetter.com/search?q={}', 'sx': 'https://searx.tiekoetter.com/search?q={}', 'aw': 'https://wiki.archlinux.org/?search={}', 're': 'https://libreddit.tiekoetter.com/r/popular/search?q={}', 'ub': 'https://www.urbandictionary.com/define.php?term={}', 'wiki': 'https://wikiless.tiekoetter.com/w/index.php?search={}', 'yt': 'https://invidious.tiekoetter.com/search?q={}'}
+c.url.searchengines = {'DEFAULT': 'https://searx.tiekoetter.com/search?q={}', 'sx': 'https://searx.tiekoetter.com/search?q={}', 'aw': 'https://wiki.archlinux.org/?search={}', 're': 'https://libreddit.tiekoetter.com/r/popular/search?q={}', 'ub': 'https://www.urbandictionary.com/define.php?term={}','ddg': 'https://duckduckgo.com/html?q={}' , 'wiki': 'https://wikiless.tiekoetter.com/w/index.php?search={}', 'yt': 'https://invidious.tiekoetter.com/search?q={}'}
 
 
 ##### Theme #####
