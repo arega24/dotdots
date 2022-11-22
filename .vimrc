@@ -26,6 +26,22 @@ Plug 'lifepillar/vim-mucomplete' " mucomplete
 
 call plug#end()
 
+"---------- Goyo ---------- 
+
+function! s:goyo_enter()
+	set linebreak 
+	set spell
+endfunction
+
+function! s:goyo_leave()
+	set nolinebreak
+	set nospell
+endfunction
+
+autocmd! User GoyoEnter nested call <SID>goyo_enter()
+autocmd! User GoyoLeave nested call <SID>goyo_leave()
+
+
 "---------- color schemes ----------
 " colorscheme from pywal (only use if color scheme not working by default)
 " colorscheme wal
@@ -99,6 +115,3 @@ let g:mucomplete#cycle_all = 1
 " Markdown
 set conceallevel=2
 
-" limelight
-autocmd! User GoyoEnter Limelight
-autocmd! User GoyoLeave Limelight!
