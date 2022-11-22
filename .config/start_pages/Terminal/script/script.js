@@ -15,7 +15,7 @@ const Config = {
             [
                 ["moodle", "https://ead.ipleiria.pt/2022-23/login/index.php"],
                 ["horarios", "https://publico.agcp.ipleiria.pt/Paginas/ScheduleRptCursosSemanalPublico.aspx"],
-                ["email", "https://login.ipleiria.pt/adfs/ls/?login_hint=2201665%40my.ipleiria.pt&client-request-id=f4b73a7e-b314-0f09-c577-ac78c13e5fdc&username=2201665%40my.ipleiria.pt&wa=wsignin1.0&wtrealm=urn%3afederation%3aMicrosoftOnline&wctx=estsredirect%3d2%26estsrequest%3drQQIARAA02I21DO0UjGAACNdEKlrkJZmqJucCmIhgSIhLoE6q-1fRDZz8h8tX1Nx0C7-zipGpYySkoJiK339_NKSnPz8bL38tLTM5FRjM1O95Pxc_fzyRP0djIwXGBlfMDJOYhIzMjIwNDMzdcit1MssyEnNLMpM1CsoWcVkbmZsbm5pbm5qYWphbGxibGxqrGecmJKWlGqUqGtuYZKqa2JhYaxrmZKcqGuSmGxhkZyaYm5ianmLid_fsbQkwwhE5BdlVqV-YuJMyy_KjS_ILy6ZxRzvklxc4ZrvWO7sGBaUX-pX4etpkpbhVO6RbZmRmJpnUGCcF5WU6Z7hF1xZ4JFRWukcHuIXElae7BrqX-lpkVJV5eKSGFGZ6umfVOjrEWwcYhyQn-pVUuBTFlZiUWaWbrGKmaiw28TMBgyN3Py8U8xs-QWpeZkpF1gYH7AwvmLhMWC24uDgEmCQYFBg-MHCuIgVGMya826fDDi2yHPBrHrBrOgkhlOs-pF-eWG5xiFG4XnJ3r4GxmZhQWXGmSXF3nmppeFVHtrlLgWlJcEWLhHejsW2plaGE9gYJ7Cx7WLj5GAWYFBidg4wfMHG-IGNsYOdYRcnEXF2gZvxAC_DD77jczbvfLX11xsPAA2&RedirectToIdentityProvider=http%3a%2f%2flogin.ipleiria.pt%2fadfs%2fservices%2ftrust"]
+                ["email", "http://webmail.my.ipleiria.pt/"]
             ]
         ],
         [
