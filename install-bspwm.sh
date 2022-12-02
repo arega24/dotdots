@@ -72,6 +72,10 @@ paru -S materia-gtk-theme
 #ntfs suport
 sudo paru -S ntfs-3g
 
+#NAS Folders Suport
+#https://wiki.archlinux.org/title/NFS#Installation
+sudo paru -S nfs-utils
+
 # network management
 sudo paru -S networkmanager network-manager-applet dnsmasq
 sudo systemctl enable NetworkManager.service
